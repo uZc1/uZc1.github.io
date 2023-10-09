@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+      "module": "ESNext",
+      "moduleResolution": "Node",
+      "target": "ESNext",
+      "jsx": "preserve",
+      "strictNullChecks": true,
+      "strictFunctionTypes": true,
+      "baseUrl": ".",
+      "allowJs": true,
+      "paths": {
+        "@/*": [
+          "./src/*"
+        ]
+      }
+    },
+    "include": [
+      "src/**/*",
+      "src/**/*.vue",
+    ],
+    "exclude": [
+      "node_modules",
+      "**/node_modules/*"
+    ]
+  }
